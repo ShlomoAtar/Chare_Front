@@ -1,0 +1,57 @@
+.friends-list {
+  position: fixed;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+.h1 {
+  margin: 8px;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.list {
+  direction: rtl;
+  overflow-y: scroll;
+  height: 82%;
+  
+}
+
+.list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.list::-webkit-scrollbar-thumb:hover {
+  background: rgb(154, 154, 154); 
+  border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-thumb:active {
+  background: rgb(114, 114, 114);
+  border-radius: 10px;
+}
+
+li {
+  padding: 0.7rem;
+  list-style: none;
+  font-family: verdana;
+  font-size: 18px;
+  font-style: oblique;
+  font-weight: bold;
+  color: darkslategrey;
+  border-radius: 22px;
+  transition: 0.4s;
+  cursor: pointer;
+  
+}
+
+li:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+a {
+  text-decoration: none;
+}
