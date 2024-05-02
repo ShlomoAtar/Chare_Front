@@ -1,12 +1,11 @@
 
-import FriendsList from "@/utils/components/friendsList/friendsList";
+import Page from "./home/page";
 import NavBar from "@/utils/components/navbar/navbar";
 export default function Home() {
   return (
     <div>
       <NavBar />
-      <FriendsList />
-      
+      <Page/>
     </div>
   );
 }
