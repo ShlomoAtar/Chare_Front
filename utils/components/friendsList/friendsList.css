@@ -1,8 +1,6 @@
 .friends-list {
-  position: fixed;
-  right: 0;
-  width: 25%;
   height: 100%;
+  flex: 1;
 }
 
 .h1 {
@@ -15,8 +13,7 @@
 .list {
   direction: rtl;
   overflow-y: scroll;
-  height: 82%;
-  
+  height: 90%;
 }
 
 .list::-webkit-scrollbar {
@@ -24,7 +21,7 @@
 }
 
 .list::-webkit-scrollbar-thumb:hover {
-  background: rgb(154, 154, 154); 
+  background: rgb(154, 154, 154);
   border-radius: 10px;
 }
 
@@ -44,7 +41,6 @@ li {
   border-radius: 22px;
   transition: 0.4s;
   cursor: pointer;
-  
 }
 
 li:hover {
