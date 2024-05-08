@@ -1,0 +1,4 @@
+.page-container {
+  height: calc(100vh - var(--nav-height));
+  background-color: whitesmoke;
+}

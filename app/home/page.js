@@ -1,6 +1,6 @@
 
 import Feed from "@/utils/components/feed/feed";
-import "./style.css"
+import "./homePage.css"
 import FriendsList from "@/utils/components/friendsList/friendsList";
 
 export default function Page() {

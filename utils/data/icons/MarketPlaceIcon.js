@@ -1,5 +1,6 @@
 export default function MarketPlaceIcon({ selected }) {
   return (
+    <a href = "app/MarketPlace/page.js">
     <svg
       height={24}
       width={24}
@@ -15,7 +16,7 @@ export default function MarketPlaceIcon({ selected }) {
         stroke-linejoin="round"
       ></g>
       <g id="SVGRepo_iconCarrier">
-        <title>shop</title> <desc>Created with Sketch Beta.</desc>
+        <title>MarketPlace</title> <desc>Created with Sketch Beta.</desc>
         <defs> </defs>
         <g
           id="Page-1"
@@ -37,5 +38,6 @@ export default function MarketPlaceIcon({ selected }) {
         </g>
       </g>
     </svg>
+    </a>
   );
 }
