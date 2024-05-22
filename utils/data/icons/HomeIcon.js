@@ -1,6 +1,6 @@
 export default function HomeIcon({ selected }) {
   return (
-    <a href="/home" className="home-icon">
+    <a href="localhost:3000" className="home-icon">
     <svg
       height={24}
       width={24}

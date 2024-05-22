@@ -35,6 +35,7 @@ export default function NavBar() {
         <Tab value={4} icon={<GamingIcon selected={tab === 4} />} />
       </Tabs>
       <div className="row center right-nav">
+        <button>Login</button>
         <div className="icon">
           <NineDotsIcon />
         </div>
