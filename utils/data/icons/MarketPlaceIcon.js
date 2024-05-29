@@ -1,6 +1,6 @@
 export default function MarketPlaceIcon({ selected }) {
   return (
-    <a href = "/MarketPlace">
+    <a href = "app/MarketPlace/page.js">
     <svg
       height={24}
       width={24}
